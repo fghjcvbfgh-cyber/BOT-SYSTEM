@@ -6,8 +6,8 @@ SERVER_NAME   = "ARAB NIGHT"              # ← اسم السيرفر
 CODED_BY      = "Coded by RAVEN"     # ← الحقوق
 
 # ── التوكنات ─────────────────────────────────────────────
-MAIN_TOKEN    = "MTUxNDk2MDE1MzQzMzA4NDA0NQ.GSyKXS.YS5hMIYS_b59BzA1Eot3OXJJhH8_dgtlI8Zcr4"         # توكن البوت الرئيسي (قوانين+ترحيب+رولات)
-MOD_TOKEN     = "MTUxNDk2MDE1MzQzMzA4NDA0NQ.GSyKXS.YS5hMIYS_b59BzA1Eot3OXJJhH8_dgtlI8Zcr4"         # توكن بوت الموديريشن والحماية
+MAIN_TOKEN    = ""         # توكن البوت الرئيسي (قوانين+ترحيب+رولات)
+MOD_TOKEN     = ""         # توكن بوت الموديريشن والحماية
 TICKET_TOKEN  = "MTUxNDk2MDE1MzQzMzA4NDA0NQ.GSyKXS.YS5hMIYS_b59BzA1Eot3OXJJhH8_dgtlI8Zcr4"         # توكن بوت التيكت
 
 # ── IDs القنوات ───────────────────────────────────────────
