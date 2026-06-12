@@ -139,4 +139,7 @@ async def on_ready():
     print(f"✅  [{SERVER_NAME}] Main Bot شغّال: {bot.user}")
     bot.add_view(RulesView())
 
-bot.run(MTUxNDk2MDE1MzQzMzA4NDA0NQ.GQ5--K.imu6awY4ZxMkaXnjP2j2GX-ve0E4xgBq55xenQ)
+import os
+
+# صح ✅
+bot.run(os.getenv('DISCORD_TOKEN'))
