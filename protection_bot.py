@@ -234,4 +234,4 @@ async def cmd_warns(ctx, member: discord.Member = None):
 async def on_ready():
     print(f"✅  [{SERVER_NAME}] Protection Bot شغّال: {bot.user}")
 
-bot.run(MOD_TOKEN)
+bot.run(MTUxNDk2MDE1MzQzMzA4NDA0NQ.GQ5--K.imu6awY4ZxMkaXnjP2j2GX-ve0E4xgBq55xenQ)
