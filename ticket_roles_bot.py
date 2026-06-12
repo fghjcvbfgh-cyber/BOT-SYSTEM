@@ -1,3 +1,4 @@
+import os
 import discord
 from discord.ext import commands
 from discord.ui import Button, View, Select, Modal, TextInput
@@ -10,18 +11,18 @@ from config import *
 # ══════════════════════════════════════════
 
 intents = discord.Intents.all()
-bot = commands.Bot(command_prefix="!setup_roles", intents=intents)
+bot = commands.Bot(command_prefix="!", intents=intents)
 
 # ─── الرتب المتاحة للطلب (أضف/عدّل كما تريد) ───
 REQUESTABLE_ROLES = {
     "VIP"      : 1486489133072252999,   # ← ID رول VIP
     "Member+"  : 1486489136436346970,   # ← ID رول Member+
-    "Verified" : 1486489124092510319,   # ← ID رول Verified
+    "Verified" : 1486489136436346970,   # ← ID رول Verified
 }
 
 # ─── قناة مراجعة طلبات الرتب ────────────
-ROLE_REQUEST_CHANNEL_ID = 1514953567486869564   # ← ID القناة اللي تصلها الطلبات
-ALLOWED_ROLE_ID         = 1486489120699318272   # ← ID الرول اللي يقدر يطلب رتبة (0 = الكل)
+ROLE_REQUEST_CHANNEL_ID = 1514953616937455696   # ← ID القناة اللي تصلها الطلبات
+ALLOWED_ROLE_ID         = 1486489125514252440   # ← ID الرول اللي يقدر يطلب رتبة (0 = الكل)
 
 open_tickets = {}   # {user_id: channel_id}
 
