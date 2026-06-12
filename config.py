@@ -6,22 +6,22 @@ SERVER_NAME   = "ARAB NIGHT"              # ← اسم السيرفر
 CODED_BY      = "Coded by RAVEN"     # ← الحقوق
 
 # ── التوكنات ─────────────────────────────────────────────
-MAIN_TOKEN    = "TOKEN_HERE"         # توكن البوت الرئيسي (قوانين+ترحيب+رولات)
-MOD_TOKEN     = "TOKEN_HERE"         # توكن بوت الموديريشن والحماية
-TICKET_TOKEN  = "TOKEN_HERE"         # توكن بوت التيكت
+MAIN_TOKEN    = "MTUxNDk2MDE1MzQzMzA4NDA0NQ.GQ5--K.imu6awY4ZxMkaXnjP2j2GX-ve0E4xgBq55xenQ"         # توكن البوت الرئيسي (قوانين+ترحيب+رولات)
+MOD_TOKEN     = "MTUxNDk2MDE1MzQzMzA4NDA0NQ.GQ5--K.imu6awY4ZxMkaXnjP2j2GX-ve0E4xgBq55xenQ"         # توكن بوت الموديريشن والحماية
+TICKET_TOKEN  = "MTUxNDk2MDE1MzQzMzA4NDA0NQ.GQ5--K.imu6awY4ZxMkaXnjP2j2GX-ve0E4xgBq55xenQ"         # توكن بوت التيكت
 
 # ── IDs القنوات ───────────────────────────────────────────
-WELCOME_CHANNEL_ID    = 000000000000   # قناة الترحيب
-RULES_CHANNEL_ID      = 000000000000   # قناة القوانين
-LOG_CHANNEL_ID        = 000000000000   # قناة اللوق
-TICKET_CHANNEL_ID     = 000000000000   # قناة فتح التيكت
-MOD_LOG_CHANNEL_ID    = 000000000000   # قناة لوق الموديريشن
+WELCOME_CHANNEL_ID    = 1486489214542544956   # قناة الترحيب
+RULES_CHANNEL_ID      = 1514953806558007408   # قناة القوانين
+LOG_CHANNEL_ID        = 1514953616937455696   # قناة اللوق
+TICKET_CHANNEL_ID     = 1514962689485570169   # قناة فتح التيكت
+MOD_LOG_CHANNEL_ID    = 1514953616937455696   # قناة لوق الموديريشن
 
 # ── IDs الرولات ───────────────────────────────────────────
-MEMBER_ROLE_ID        = 000000000000   # رول العضو الجديد
-MUTE_ROLE_ID          = 000000000000   # رول الكتم
-ADMIN_ROLE_ID         = 000000000000   # رول الأدمن
-SUPPORT_ROLE_ID       = 000000000000   # رول السبورت (يشوف التيكتات)
+MEMBER_ROLE_ID        = 1486489136436346970   # رول العضو الجديد
+MUTE_ROLE_ID          = 1486489137916936392   # رول الكتم
+ADMIN_ROLE_ID         = 1486489125514252440   # رول الأدمن
+SUPPORT_ROLE_ID       = 1486489125514252440   # رول السبورت (يشوف التيكتات)
 
 # ── إعدادات الحماية ───────────────────────────────────────
 ANTI_SPAM_LIMIT       = 5    # عدد الرسائل المسموح بها في 5 ثواني قبل الكتم
