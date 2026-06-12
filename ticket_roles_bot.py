@@ -10,7 +10,7 @@ from config import *
 # ══════════════════════════════════════════
 
 intents = discord.Intents.all()
-bot = commands.Bot(command_prefix="!", intents=intents)
+bot = commands.Bot(command_prefix="!setup_roles", intents=intents)
 
 # ─── الرتب المتاحة للطلب (أضف/عدّل كما تريد) ───
 REQUESTABLE_ROLES = {
