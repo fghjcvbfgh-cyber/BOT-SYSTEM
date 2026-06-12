@@ -141,5 +141,4 @@ async def on_ready():
 
 import os
 
-# صح ✅
-bot.run(os.getenv('DISCORD_TOKEN'))
+bot.run(MAIN_TOKEN)
