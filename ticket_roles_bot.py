@@ -343,4 +343,4 @@ async def on_ready():
     bot.add_view(RoleRequestView())
     bot.add_view(TicketMainView())
 
-bot.run(os.getenv('DISCORD_TOKEN'))
+bot.run(TICKET_TOKEN)
