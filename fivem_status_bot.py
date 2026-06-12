@@ -184,4 +184,4 @@ async def on_ready():
     update_status.start()
 
 
-bot.run("MTUxNDk1NDY1NDI2ODY1MzY2OQ.G9GkpT.NEQNe2Ru2gmovkkqaLw9RMQ14pdOPlgtMJkALg")   # ← توكن بوت الستاتس
+bot.run(os.getenv('DISCORD_TOKEN'))  # ← توكن بوت الستاتس
