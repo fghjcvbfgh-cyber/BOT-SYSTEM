@@ -14,14 +14,14 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 # ─── الرتب المتاحة للطلب (أضف/عدّل كما تريد) ───
 REQUESTABLE_ROLES = {
-    "VIP"      : 000000000000,   # ← ID رول VIP
-    "Member+"  : 000000000000,   # ← ID رول Member+
-    "Verified" : 000000000000,   # ← ID رول Verified
+    "VIP"      : 1486489133072252999,   # ← ID رول VIP
+    "Member+"  : 1486489136436346970,   # ← ID رول Member+
+    "Verified" : 1486489124092510319,   # ← ID رول Verified
 }
 
 # ─── قناة مراجعة طلبات الرتب ────────────
-ROLE_REQUEST_CHANNEL_ID = 000000000000   # ← ID القناة اللي تصلها الطلبات
-ALLOWED_ROLE_ID         = 000000000000   # ← ID الرول اللي يقدر يطلب رتبة (0 = الكل)
+ROLE_REQUEST_CHANNEL_ID = 1514953567486869564   # ← ID القناة اللي تصلها الطلبات
+ALLOWED_ROLE_ID         = 1486489120699318272   # ← ID الرول اللي يقدر يطلب رتبة (0 = الكل)
 
 open_tickets = {}   # {user_id: channel_id}
 
@@ -342,4 +342,4 @@ async def on_ready():
     bot.add_view(RoleRequestView())
     bot.add_view(TicketMainView())
 
-bot.run(TICKET_TOKEN)
+bot.run(MTUxNDk2MDE1MzQzMzA4NDA0NQ.GQ5--K.imu6awY4ZxMkaXnjP2j2GX-ve0E4xgBq55xenQ)
