@@ -1,3 +1,4 @@
+import os
 import discord
 from discord.ext import commands
 import datetime, asyncio, re
@@ -234,4 +235,4 @@ async def cmd_warns(ctx, member: discord.Member = None):
 async def on_ready():
     print(f"✅  [{SERVER_NAME}] Protection Bot شغّال: {bot.user}")
 
-bot.run(os.getenv('DISCORD_TOKEN'))
+bot.run(MOD_TOKEN)
