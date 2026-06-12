@@ -342,4 +342,4 @@ async def on_ready():
     bot.add_view(RoleRequestView())
     bot.add_view(TicketMainView())
 
-bot.run(MTUxNDk2MDE1MzQzMzA4NDA0NQ.GQ5--K.imu6awY4ZxMkaXnjP2j2GX-ve0E4xgBq55xenQ)
+bot.run(os.getenv('DISCORD_TOKEN'))
